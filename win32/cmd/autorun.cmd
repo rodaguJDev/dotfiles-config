@@ -25,3 +25,6 @@ DOSKEY gp=git push $*
 DOSKEY glg=git log $*
 DOSKEY gcl=git clone $*
 DOSKEY gd=git diff $*
+DOSKEY gconfig=git config --global $*
+DOSKEY gproxy=git config --global http.proxy http://17.1.0.1:3128
+DOSKEY gunproxy=git config --global --unset http.proxy
