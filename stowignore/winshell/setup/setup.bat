@@ -8,11 +8,6 @@ IF /I "%setupAutorun%"=="y" (
     START /WAIT /B .\bin\setup-firefox.bat
 )
 ECHO(
-SET /p setupAutorun="SETUP NEOVIM? (y/n) "
-IF /I "%setupAutorun%"=="y" (
-    START /WAIT /B .\bin\setup-nvim.bat
-)
-ECHO(
 SET /p setupAutorun="SETUP CODE AND SETTINGS? (y/n) "
 IF /I "%setupAutorun%"=="y" (
     START /WAIT /B .\bin\setup-code.bat
