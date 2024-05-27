@@ -6,58 +6,58 @@
     "editor.cursorSurroundingLines": 8,
     "vim.visualModeKeyBindings": [
         {
-            "before": [ "shift+k" ],
-            "commands": [ "editor.action.moveLinesUpAction" ],
+            "before": ["shift+k"],
+            "commands": ["editor.action.moveLinesUpAction"]
         },
         {
-            "before": [ "shift+j" ],
-            "commands": [ "editor.action.moveLinesDownAction" ],
-        },
+            "before": ["shift+j"],
+            "commands": ["editor.action.moveLinesDownAction"]
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
-            "before": [ "<leader>", "y" ],
-            "after": [ "\"", "+", "y" ]
+            "before": ["<leader>", "y"],
+            "after": ["\"", "+", "y"]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": [ "J" ],
-            "after": [ "m", "z", "J", "`", "z" ]
+            "before": ["J"],
+            "after": ["m", "z", "J", "`", "z"]
         },
         {
-            "before": [ "<leader>", "y" ],
-            "after": [ "\"", "+", "y" ]
-        },
+            "before": ["<leader>", "y"],
+            "after": ["\"", "+", "y"]
+        }
     ],
     "vim.normalModeKeyBindings": [
         {
-            "before": [ "<leader>", "p", "f" ],
-            "commands": [ "workbench.action.quickOpen" ]
+            "before": ["<leader>", "p", "f"],
+            "commands": ["workbench.action.quickOpen"]
         },
         {
-            "before": [ "<leader>", "p", "s" ],
-            "commands": [ "workbench.action.findInFiles" ]
+            "before": ["<leader>", "p", "s"],
+            "commands": ["workbench.action.findInFiles"]
         },
         {
-            "before": [ "<leader>", "p", "v" ],
-            "commands": [ "workbench.view.explorer" ]
+            "before": ["<leader>", "p", "v"],
+            "commands": ["workbench.view.explorer"]
         },
         {
-            "before": [ "g", "d" ],
-            "commands": [ "editor.action.revealDefinition" ]
+            "before": ["g", "d"],
+            "commands": ["editor.action.revealDefinition"]
         },
         {
-            "before": [ "g", "r" ],
-            "commands": [ "editor.action.goToReferences" ]
+            "before": ["g", "r"],
+            "commands": ["editor.action.goToReferences"]
         },
         {
-            "before": [ "g", "t", "d" ],
-            "commands": [ "editor.action.goToTypeDefinition" ]
+            "before": ["g", "t", "d"],
+            "commands": ["editor.action.goToTypeDefinition"]
         },
         {
-            "before": [ "<leader>", "f", "d" ],
-            "commands": [ "editor.action.formatDocument" ]
+            "before": ["<leader>", "f", "d"],
+            "commands": ["editor.action.formatDocument"]
         }
     ],
     "prettier.singleQuote": true,
@@ -65,5 +65,12 @@
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true
 }
