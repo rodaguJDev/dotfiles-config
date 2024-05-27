@@ -26,4 +26,5 @@ Para instalar, utilizaremos [GNU Stow](https://www.gnu.org/software/stow/) para 
 3. Utilize GNU Stow para colocar os arquivos em seus devidos lugares, execute `stow --adopt .`
 4. Digite `git status` para ver se a clausula --adopt não alterou nenhum arquivo
    Para saber mais sobre GNU Stow, veja [esse video](https://www.youtube.com/watch?v=y6XCebnB9gs)
-5. Por fim, para iniciar as configurações do ZSH, adicione ao `~/.zshrc` sourceme.sh
+5. Por fim, para iniciar as configurações do ZSH, adicione ao `~/.zshrc` um source sourceme.sh
+    - note que o caminho pode variar, mas o comando para fazer isso deve ser `echo source $HOME/dotfiles-config/scripts/zsh/sourceme.sh >> ~/.zshrc`
