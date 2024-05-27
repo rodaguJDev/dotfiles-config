@@ -17,9 +17,6 @@ Os arquivos de configuração nesse repositório são utilizados pelas seguintes
 Algumas aplicações não estão inclusas por não fazerem parte do sistema operacional Linux ou não possuirem um caminho específico.
 Esses você pode encontrar em [rodaguJDev/application-configs](https://github.com/rodaguJDev/application-configs/):
 
--   autorun.cmd - Arquivo para o Command Prompt (batch) do Windows
--   user.js - Preferências do firefox
-
 # Como instalar
 
 Para instalar, utilizaremos [GNU Stow](https://www.gnu.org/software/stow/) para cololocar os arquivos nos lugares corretos.
@@ -29,3 +26,4 @@ Para instalar, utilizaremos [GNU Stow](https://www.gnu.org/software/stow/) para 
 3. Utilize GNU Stow para colocar os arquivos em seus devidos lugares, execute `stow --adopt .`
 4. Digite `git status` para ver se a clausula --adopt não alterou nenhum arquivo
    Para saber mais sobre GNU Stow, veja [esse video](https://www.youtube.com/watch?v=y6XCebnB9gs)
+5. Por fim, para iniciar as configurações do ZSH, adicione ao `~/.zshrc` sourceme.sh
