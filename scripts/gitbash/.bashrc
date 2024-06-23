@@ -1,0 +1,22 @@
+# GIT
+alias glg='git log'
+alias glgg='git log --graph'
+alias glgga='git log --graph --decorate --all'
+alias glgm='git log --graph --max-count=10'
+alias glg='git log --stat'
+alias glgp='git log --stat --patch'
+alias g='git'
+alias gst='git status'
+alias ga='git add'
+alias gaa='git add --all'
+alias gc='git commit'
+alias gl='git pull'
+alias gp='git push'
+alias glg='git log'
+alias gcl='git clone'
+alias gd='git diff'
+alias gr='git remote'
+
+# General
+alias l='ls -a'
+alias grep='grep --color'
